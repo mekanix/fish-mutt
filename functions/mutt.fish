@@ -1,4 +1,4 @@
 function mutt
   set -x TERM xterm-256color
-  command mutt $argv
+  command neomutt $argv || command mutt $argv
 end
